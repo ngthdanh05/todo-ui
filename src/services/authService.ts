@@ -1,4 +1,3 @@
-import axios from "axios";
 import httpRequest from "../utils/httpRequest";
 
 interface Data {

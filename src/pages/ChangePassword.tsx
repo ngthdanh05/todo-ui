@@ -67,7 +67,7 @@ function ChangePassword() {
             type="submit"
             className="w-full py-2 bg-gray-800 text-white font-semibold rounded hover:bg-gray-700 transition duration-300 cursor-pointer"
           >
-            Thay đổi mật khẩu
+            {isLoading ? "Đang xử lý..." : "Thay đổi mật khẩu"}
           </button>
         </form>
       </div>
