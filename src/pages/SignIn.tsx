@@ -97,7 +97,7 @@ function SignIn(): JSX.Element {
 
         <p className=" mt-4 text-center">
           <Link
-            to={routes.forgotPassword}
+            to="/forgot-password"
             className="text-[#049da5] hover:underline"
           >
             Forgot password
@@ -105,7 +105,7 @@ function SignIn(): JSX.Element {
         </p>
         <p className="text-center text-gray-600">
           Don't have an account?{" "}
-          <Link to={routes.signup} className="text-[#049da5] hover:underline">
+          <Link to="/signup" className="text-[#049da5] hover:underline">
             Sign Up
           </Link>
         </p>

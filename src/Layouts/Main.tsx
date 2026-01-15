@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import routes from "../routes/routes";
 
 function Main() {
   return (
@@ -19,7 +18,7 @@ function Main() {
         </p>
 
         <Link
-          to={routes.signin}
+          to="/signin"
           className="inline-flex items-center px-6 py-3 bg-[#2f77c8] text-white rounded-full font-semibold hover:bg-[#4facfe] transition-all duration-300 shadow-lg"
         >
           Get Started

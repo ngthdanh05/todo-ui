@@ -147,7 +147,7 @@ function SignUp(): JSX.Element {
 
         <p className="mt-4 text-center text-gray-600">
           Already have an account?{" "}
-          <Link to={routes.signin} className="text-[#02afae] hover:underline">
+          <Link to="/signin" className="text-[#02afae] hover:underline">
             Sign In
           </Link>
         </p>

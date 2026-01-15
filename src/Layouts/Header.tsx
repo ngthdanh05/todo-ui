@@ -21,7 +21,7 @@ function Header() {
       <div className="max-w-screen-xl mx-auto flex justify-between items-center h-20 border-b border-gray-300 px-8">
         {isAuthenticated ? (
           <Link
-            to={routes.todoapp}
+            to="/todoapp"
             className="flex items-center text-xl font-extrabold gap-2 text-[#02afae]"
           >
             <img
@@ -51,12 +51,12 @@ function Header() {
         <div className="flex gap-4 px-2 items-center">
           {!isAuthenticated ? (
             <>
-              <Link to={routes.signin}>
+              <Link to="/signin">
                 <button className="py-2 min-w-[100px] rounded bg-gray-800 text-white hover:bg-gray-700 transition cursor-pointer">
                   Login
                 </button>
               </Link>
-              <Link to={routes.signup}>
+              <Link to="/signup">
                 <button className="min-w-[100px] py-2 rounded border border-[#02afae] text-[#02afae] hover:underline cursor-pointer transition">
                   Sign Up
                 </button>
